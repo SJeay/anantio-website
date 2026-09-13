@@ -1,59 +1,422 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ABIZ is Anantio's upcoming business management platform for modern entrepreneurs.">
-  <meta name="theme-color" content="#f7f9fc">
-  <title>ABIZ is Coming Soon | Anantio</title>
-  <link rel="icon" type="image/png" href="anantio-logo.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="abiz.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ABIZ by Anantio Private Limited — WhatsApp Business CRM for growing businesses." />
+  <meta name="theme-color" content="#2563eb" />
+  <meta property="og:title" content="ABIZ by Anantio Private Limited" />
+  <meta property="og:description" content="WhatsApp Business CRM for growing businesses." />
+  <meta property="og:type" content="website" />
+  <title>ABIZ | WhatsApp Business CRM for Growing Businesses</title>
+  <link rel="icon" type="image/png" href="anantio-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="abiz.css" />
 </head>
 <body>
-  <div class="abiz-orb abiz-orb-one" aria-hidden="true"></div>
-  <div class="abiz-orb abiz-orb-two" aria-hidden="true"></div>
+  <div class="abiz-site-header">
+    <nav class="abiz-navbar container" aria-label="Main navigation">
+      <a class="abiz-logo" href="index.html" aria-label="Anantio home">
+        <img src="anantio-logo.png" alt="Anantio" />
+        <span>ANANTIO</span>
+      </a>
 
-  <header class="abiz-nav">
-    <a class="abiz-brand" href="index.html" aria-label="Back to Anantio home">
-      <img src="anantio-logo.png" alt="">
-      <span>ANANTIO</span>
-    </a>
-    <a class="abiz-nav-link" href="index.html">Back to Anantio <span aria-hidden="true">&#8599;</span></a>
-  </header>
+      <button class="abiz-menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-  <main>
-    <section class="abiz-hero" aria-labelledby="page-title">
-      <p class="abiz-eyebrow"><span></span> ANANTIO PRODUCT</p>
-      <h1 id="page-title">ABIZ is<br><em>Coming Soon</em> <span class="rocket" aria-hidden="true">&#128640;</span></h1>
-      <p class="abiz-lede">Building the future of business management for modern entrepreneurs. We're crafting something fast, intelligent, and beautifully simple.</p>
+      <div class="abiz-nav-links" id="abiz-nav-links">
+        <a class="active" href="#hero">Platform</a>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a class="abiz-nav-button" href="https://app.anantio.com/">Subscribe Now</a>
+      </div>
+    </nav>
+  </div>
+
+  <main class="abiz-page">
+    <section class="abiz-hero container" id="hero">
+      <div class="abiz-hero-copy">
+        <div class="hero-kicker"><span></span> ANANTIO PRIVATE LIMITED</div>
+        <h1>Manage WhatsApp Leads, Customers &amp; Conversations — All in One Dashboard.</h1>
+        <p class="abiz-subtitle">
+          ABIZ helps businesses connect their WhatsApp Business account, capture leads from Meta Ads, manage conversations, and automate customer communication using WhatsApp Cloud API.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://app.anantio.com/">Subscribe Now <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://wa.me/919500815182">Contact Sales <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="hero-proof">
+          <div>
+            <span class="proof-number">24/7</span>
+            <span class="proof-label">Conversation Flow</span>
+          </div>
+          <div>
+            <span class="proof-number">1</span>
+            <span class="proof-label">WhatsApp Inbox</span>
+          </div>
+          <div>
+            <span class="proof-number">₹1,999</span>
+            <span class="proof-label">Monthly Plan</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="abiz-dashboard-card" aria-label="ABIZ dashboard preview">
+        <div class="dashboard-topbar">
+          <span class="dashboard-brand"><span class="dashboard-logo">A</span>ABIZ</span>
+          <span class="dashboard-status"><span></span>Live</span>
+        </div>
+        <div class="dashboard-grid">
+          <div class="dashboard-sidebar">
+            <span class="dash-menu active">Dashboard</span>
+            <span class="dash-menu">Leads</span>
+            <span class="dash-menu">Messages</span>
+            <span class="dash-menu">Customers</span>
+            <span class="dash-menu">Automation</span>
+          </div>
+          <div class="dashboard-content">
+            <div class="dashboard-content-head">
+              <span>Overview</span>
+              <span class="dashboard-date">Sep 2026</span>
+            </div>
+            <div class="dashboard-metrics">
+              <div class="metric-card">
+                <span class="metric-label">Leads</span>
+                <span class="metric-value">284</span>
+                <span class="metric-change positive">+18%</span>
+              </div>
+              <div class="metric-card">
+                <span class="metric-label">Chats</span>
+                <span class="metric-value">126</span>
+                <span class="metric-change positive">+9%</span>
+              </div>
+            </div>
+            <div class="dashboard-chart">
+              <div class="chart-line">
+                <span class="chart-dot dot-one"></span>
+                <span class="chart-dot dot-two"></span>
+                <span class="chart-dot dot-three"></span>
+                <span class="chart-bar bar-one"></span>
+                <span class="chart-bar bar-two"></span>
+                <span class="chart-bar bar-three"></span>
+              </div>
+            </div>
+            <div class="dashboard-list">
+              <div class="list-row">
+                <span class="list-icon green"></span>
+                <span class="list-text">Follow-up due</span>
+                <span class="list-number">09</span>
+              </div>
+              <div class="list-row">
+                <span class="list-icon blue"></span>
+                <span class="list-text">Meta ads leads</span>
+                <span class="list-number">42</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
     </section>
 
-    <section class="status-card" aria-labelledby="status-title">
-      <div class="status-topline"><div><p class="status-label">Product status</p><h2 id="status-title">In Active Development</h2></div><span class="status-badge">Coming Soon</span></div>
-      <div class="progress-meta"><span>Build progress</span><strong>76%</strong></div>
-      <div class="progress-track" role="progressbar" aria-label="ABIZ development progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="76"><span class="progress-value"></span></div>
-      <p class="status-note"><span class="pulse-dot" aria-hidden="true"></span> New features are being built and tested.</p>
-    </section>
-
-    <section class="features-section" aria-labelledby="features-title">
-      <div class="section-heading"><p class="abiz-eyebrow"><span></span> WHAT'S INSIDE</p><h2 id="features-title">A clearer way to run<br><em>your business.</em></h2></div>
+    <section class="feature-section container" id="features">
+      <div class="section-heading centered">
+        <span class="abiz-kicker">ABIZ PLATFORM</span>
+        <h2>Everything your WhatsApp-first team needs.</h2>
+      </div>
       <div class="feature-grid">
-        <article class="feature-card"><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg></div><h3>Smart Business Dashboard</h3><p>See the signal across your business at a glance.</p></article>
-        <article class="feature-card"><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0M15 15a4 4 0 0 1 5.5 4"/></svg></div><h3>Customer Management</h3><p>Keep every relationship organized and moving forward.</p></article>
-        <article class="feature-card"><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6zM15 3v4h4M9 12h6M9 16h4"/></svg></div><h3>Invoices &amp; Billing</h3><p>Create, track, and manage payments without the clutter.</p></article>
-        <article class="feature-card"><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 19V5M4 19h17M7 15l3-4 3 2 5-7"/></svg></div><h3>Analytics &amp; Reports</h3><p>Turn everyday activity into decisions you can trust.</p></article>
-        <article class="feature-card"><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M3.5 19a4.5 4.5 0 0 1 9 0M11.5 19a4.5 4.5 0 0 1 9 0"/></svg></div><h3>Team Collaboration</h3><p>Give your team the context to do their best work.</p></article>
-        <article class="feature-card"><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3 1.5 5.5L19 10l-5.5 1.5L12 17l-1.5-5.5L5 10l5.5-1.5zM19 16l.7 2.3L22 19l-2.3.7L19 22l-.7-2.3L16 19l2.3-.7z"/></svg></div><h3>AI Business Assistant</h3><p>Get thoughtful support for the work that matters.</p></article>
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" />
+            </svg>
+          </div>
+          <h3>Connect WhatsApp Business Number</h3>
+          <p>Bring your WhatsApp Business number into one secure communication workspace.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 18l8-8 4 4 6-8" />
+              <path d="M4 4h16v16H4z" />
+            </svg>
+          </div>
+          <h3>Meta Ads Lead Inbox</h3>
+          <p>Capture and organize leads from Meta ads without losing context or speed.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 18h16" />
+              <path d="M6 14h12" />
+              <path d="M8 10h8" />
+              <path d="M10 6h4" />
+            </svg>
+          </div>
+          <h3>Unified Customer Chat Dashboard</h3>
+          <p>Track every conversation, customer detail, and follow-up from one place.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h14" />
+              <path d="M12 5l7 7-7 7" />
+            </svg>
+          </div>
+          <h3>WhatsApp Cloud API Integration</h3>
+          <p>Connect accounts and automate responses using WhatsApp Cloud API workflows.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
+              <path d="M16 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              <path d="M4 20a4 4 0 0 1 8 0" />
+              <path d="M13 20a3.5 3.5 0 0 1 7 0" />
+            </svg>
+          </div>
+          <h3>Team Collaboration</h3>
+          <p>Assign ownership, share customer context, and keep teams aligned.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 11l9-9 9 9-9 9-9-9z" />
+              <path d="M8 11h8" />
+              <path d="M11 8l3 3-3 3" />
+            </svg>
+          </div>
+          <h3>Broadcast &amp; Customer Automation</h3>
+          <p>Create timely updates, reminders, and lifecycle messages with confidence.</p>
+        </article>
       </div>
     </section>
 
-    <section class="abiz-cta" aria-labelledby="cta-title"><div><p class="abiz-eyebrow"><span></span> EARLY ACCESS</p><h2 id="cta-title">Be among the first to<br><em>experience ABIZ.</em></h2></div><div class="cta-actions"><a class="button button-primary" href="index.html">Back to Anantio <span aria-hidden="true">&#8599;</span></a><a class="button button-secondary" href="mailto:connect@anantio.com">Contact Us <span aria-hidden="true">&#8599;</span></a></div></section>
+    <section class="workflow-section container" id="how-it-works">
+      <div class="section-heading centered">
+        <span class="abiz-kicker">HOW ABIZ WORKS</span>
+        <h2>From WhatsApp Business to verified growth workflows.</h2>
+      </div>
+      <div class="workflow-grid">
+        <article class="workflow-step">
+          <span class="step-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h16M6 15l4-4 4 4 4-7" /></svg>
+          </span>
+          <span class="step-number">01</span>
+          <h3>Create ABIZ Account</h3>
+          <p>Start with a secure business workspace built for fast customer operations.</p>
+        </article>
+        <article class="workflow-step">
+          <span class="step-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 11a7 7 0 1 1 14 0 7 7 0 0 1-14 0z" /><path d="M8 11h4l2 3" /></svg>
+          </span>
+          <span class="step-number">02</span>
+          <h3>Connect WhatsApp Business</h3>
+          <p>Link your business number and start receiving conversations in one inbox.</p>
+        </article>
+        <article class="workflow-step">
+          <span class="step-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12l5 5L21 1" /></svg>
+          </span>
+          <span class="step-number">03</span>
+          <h3>Verify Meta Business Portfolio</h3>
+          <p>Connect your Meta assets and prepare advertising and lead workflows.</p>
+        </article>
+        <article class="workflow-step">
+          <span class="step-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18h16M6 14h8m-8-4h12" /></svg>
+          </span>
+          <span class="step-number">04</span>
+          <h3>Start Managing Leads Instantly</h3>
+          <p>Manage follow-ups, customer records, and conversations automatically.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="pricing-section container" id="pricing">
+      <div class="section-heading centered">
+        <span class="abiz-kicker">ABIZ PRICING</span>
+        <h2>Choose the plan that fits your growth.</h2>
+      </div>
+      <div class="pricing-grid">
+        <article class="pricing-card">
+          <div class="pricing-card-top">
+            <span class="plan-label">Monthly Plan</span>
+            <span class="plan-price">₹1,999<span>/month</span></span>
+          </div>
+          <ul class="plan-features">
+            <li>1 WhatsApp Business Number</li>
+            <li>Unlimited Conversations</li>
+            <li>Meta Ads Integration</li>
+            <li>Lead Dashboard</li>
+            <li>Customer Management</li>
+            <li>Support Included</li>
+          </ul>
+          <a class="button button-secondary pricing-button" href="https://app.anantio.com/">Subscribe Monthly</a>
+        </article>
+
+        <article class="pricing-card pricing-card-highlight">
+          <span class="best-value">Best Value</span>
+          <div class="pricing-card-top">
+            <span class="plan-label">Lifetime Plan</span>
+            <span class="plan-price">₹14,999<span> one-time</span></span>
+          </div>
+          <ul class="plan-features">
+            <li>Lifetime Access</li>
+            <li>All Premium Features</li>
+            <li>Lifetime Updates</li>
+            <li>Priority Support</li>
+            <li>Future Feature Access</li>
+          </ul>
+          <a class="button button-primary pricing-button" href="https://app.anantio.com/">Buy Lifetime</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="stats-section container">
+      <div class="section-heading centered">
+        <span class="abiz-kicker">WHY BUSINESSES CHOOSE ABIZ</span>
+        <h2>Built for faster WhatsApp-led growth.</h2>
+      </div>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <span class="stat-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h4l3-7 4 14 3-7h4" /></svg>
+          </span>
+          <h3>WhatsApp Lead Management</h3>
+          <p>Turn conversations into organized, measurable business opportunities.</p>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4z" /><path d="M8 12h8" /><path d="M12 8v8" /></svg>
+          </span>
+          <h3>Cloud API Ready</h3>
+          <p>Connect your WhatsApp Cloud API workflows with customer data in mind.</p>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l4 4L20 0" /><path d="M5 20h14" /></svg>
+          </span>
+          <h3>Secure Business Messaging</h3>
+          <p>Operate communications with permissions, structure, and business context.</p>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18l7-7 4 4 8-8" /><path d="M4 4h16v16H4z" /></svg>
+          </span>
+          <h3>Built for Indian Businesses</h3>
+          <p>Designed to support local workflows, customer journeys, and business scale.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq-section container" id="faq">
+      <div class="section-heading centered">
+        <span class="abiz-kicker">FAQ</span>
+        <h2>Questions about ABIZ.</h2>
+      </div>
+      <div class="faq-list">
+        <details open>
+          <summary>What is ABIZ?</summary>
+          <p>ABIZ is a WhatsApp Business CRM product developed by Anantio Private Limited for businesses to manage leads, customer conversations, WhatsApp workflows, and support operations.</p>
+        </details>
+        <details>
+          <summary>Who can use ABIZ?</summary>
+          <p>ABIZ is designed for growing businesses, sales teams, customer support teams, agencies, and service providers that use WhatsApp Business for customer communication.</p>
+        </details>
+        <details>
+          <summary>Does ABIZ work with Meta Ads?</summary>
+          <p>Yes. ABIZ is built to help businesses organize leads from Meta Ads and route incoming WhatsApp conversations into a central business dashboard.</p>
+        </details>
+        <details>
+          <summary>How does WhatsApp Cloud API connection work?</summary>
+          <p>Customers connect their WhatsApp Business number and required business assets through ABIZ onboarding and Cloud API setup procedures.</p>
+        </details>
+        <details>
+          <summary>Can I upgrade from Monthly to Lifetime?</summary>
+          <p>Yes. Customers can request plan transition guidance from support and relevant account information can be reviewed for upgrade eligibility.</p>
+        </details>
+        <details>
+          <summary>Do you provide support?</summary>
+          <p>Yes. Support is included with the monthly plan and priority support is available for lifetime customers.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="about-abiz-section container">
+      <div class="about-abiz-card">
+        <div class="about-abiz-copy">
+          <span class="abiz-kicker">ABOUT ABIZ</span>
+          <h2>ABIZ helps teams turn WhatsApp conversations into business momentum.</h2>
+          <p>
+            ABIZ is developed by Anantio Private Limited to help businesses simplify customer communication and lead management through WhatsApp Business. ABIZ is secure, reliable, built for businesses, and designed as a practical subscription software experience.
+          </p>
+          <div class="about-list">
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4L19 0" /></svg>Secure</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4L19 0" /></svg>Reliable</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4L19 0" /></svg>Built for businesses</span>
+            <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4L19 0" /></svg>Subscription software</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-strip container">
+      <div class="contact-strip-grid">
+        <div>
+          <span class="abiz-kicker">ANANTIO PRIVATE LIMITED</span>
+          <h2>Contact ABIZ team.</h2>
+          <p>Coimbatore, Tamil Nadu, India</p>
+          <a class="contact-email" href="mailto:connect@anantio.com">connect@anantio.com</a>
+        </div>
+        <div class="contact-strip-actions">
+          <a class="button button-primary" href="https://wa.me/919500815182">Contact Us</a>
+          <a class="button button-secondary" href="mailto:connect@anantio.com">Business Enquiry</a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="abiz-footer"><a class="abiz-brand" href="index.html"><img src="anantio-logo.png" alt=""><span>ANANTIO</span></a><p>© 2026 Anantio Pvt Ltd. All rights reserved.</p></footer>
+  <footer class="abiz-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand-block">
+        <a class="abiz-logo" href="index.html" aria-label="Anantio home">
+          <img src="anantio-logo.png" alt="Anantio" />
+          <span>ANANTIO</span>
+        </a>
+        <p class="footer-about">Anantio Private Limited<br />Coimbatore, Tamil Nadu, India</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="legal/privacy-policy.html">Privacy Policy</a>
+        <a href="legal/terms-of-service.html">Terms &amp; Conditions</a>
+        <a href="legal/refund-policy.html">Refund &amp; Cancellation Policy</a>
+        <a href="legal/cookie-policy.html">Cookie Policy</a>
+        <a href="legal/data-deletion.html">Data Deletion</a>
+      </div>
+
+      <div class="footer-copy">
+        <p>© 2026 Anantio Private Limited. All Rights Reserved.</p>
+        <p><a href="mailto:connect@anantio.com">connect@anantio.com</a></p>
+      </div>
+    </div>
+  </footer>
+
   <script src="abiz.js"></script>
 </body>
 </html>
